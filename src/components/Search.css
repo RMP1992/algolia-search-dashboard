@@ -1,0 +1,30 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search-section {
+  display: flex;
+  flex-direction: column;
+}
+.search-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.search-title-container {
+  display: flex;
+  justify-content: center;
+}
+.search-title {
+  margin: 2rem 0 0;
+}
+@media (max-width: 400px) {
+  .search-form {
+    align-items: center;
+  }
+  input#search-input {
+    width: 9rem;
+  }
+}
